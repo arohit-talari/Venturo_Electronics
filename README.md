@@ -42,3 +42,19 @@ While the 2025 recovery was strong — revenue rebounding **56%** to **$16.3M** 
 ## Data Structure & ERD
 
 The database consists of five tables — `orders`, `customers`, `date_dim`, `geo_lookup`, and `order_status`— comprising 110,542 records. `orders` serves as the central fact table, linking to `customers` via `customer_id`, fulfillment and refund data via `order_id` through `order_status`, time-series dimensions via `date_dim`, and regional classification via `geo_lookup` through `country_code`.
+
+<img src="images/erd.png" width="750">
+
+--- 
+
+## Insights Deep Dive
+
+### Sales Performance
+
+<img src="images/sales_revenue_aov_volume.png" width="750">
+
+**2024 Was the Only Year All Three Core Metrics Contracted Simultaneously — Macro, Not Operational**
+- Revenue, average order value (AOV), and order volume all hit four-year lows in 2024 — monthly revenue troughed at **$0.8M** against a **$1.3M** average, AOV compressed to **$472** against a **$589** average, and order volume bottomed at **1,641** against a **2,200** average.
+- On an annual basis, revenue fell **42%** from **$17.8M** to **$10.4M**, AOV dropped **24** from **$638** to **$484**, and order volume declined 23% from **27,859** to **21,483** — uniform across all 10 products, all 4 regions, and all 4 quarters, confirming the cause was economic, not operational.
+- Every other year had at least one offsetting metric: 2023 saw AOV rise **6%** despite order volume falling **13%** — pricing power absorbed weaker demand. In 2024, there was no such offset.
+
