@@ -43,7 +43,9 @@ While the 2025 recovery was strong — revenue rebounding **56%** to **$16.3M** 
 
 The database consists of five tables — `orders`, `customers`, `date_dim`, `geo_lookup`, and `order_status`— comprising 110,542 records. `orders` serves as the central fact table, linking to `customers` via `customer_id`, fulfillment and refund data via `order_id` through `order_status`, time-series dimensions via `date_dim`, and regional classification via `geo_lookup` through `country_code`.
 
+<p align="center">
 <img src="images/erd.png" width="750">
+</p>
 
 --- 
 
@@ -51,7 +53,10 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 
 ### Sales Performance
 
+<p align="center">
 <img src="images/sales_revenue_aov_volume.png" width="750">
+</p>
+
 
 **2024 Was the Only Year All Three Core Metrics Contracted Simultaneously — Macro, Not Operational**
 - Revenue, average order value (AOV), and order volume all hit four-year lows in 2024 — monthly revenue troughed at **$0.8M** against a **$1.3M** average, AOV compressed to **$472** against a **$589** average, and order volume bottomed at **1,641** against a **2,200** average.
