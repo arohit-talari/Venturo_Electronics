@@ -31,7 +31,7 @@ This performance review was commissioned for the Head of Operations to comprehen
 
 ---
 
-## Executive Summary 
+<h2 align="center">Executive Summary</h2>
 
 Between 2022 and 2025, Venturo Electronics generated **$63.8M** in revenue across **110,000+ transactions** — moving through a post-pandemic baseline, inflation-driven slowdown, a sharp 2024 contraction, and a broad 2025 recovery. **2024** marks the clear inflection point: the only year in which revenue, average order value (AOV), and order volume declined simultaneously, by **42%**, **24%**, and **23%**, respectively. This contraction was uniform across all products, regions, and quarters, pointing to broad economic pressure as the cause rather than anything broken internally.
 
@@ -39,7 +39,7 @@ While the 2025 recovery was strong — revenue rebounding **56%** to **$16.3M** 
 
 ---
 
-## Data Structure & ERD
+<h2 align="center">Data Structure & ERD</h2>
 
 The database consists of five tables — `orders`, `customers`, `date_dim`, `geo_lookup`, and `order_status`— comprising 110,542 records. `orders` serves as the central fact table, linking to `customers` via `customer_id`, fulfillment and refund data via `order_id` through `order_status`, time-series dimensions via `date_dim`, and regional classification via `geo_lookup` through `country_code`.
 
@@ -48,10 +48,9 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 </p>
 
 --- 
+<h2 align="center">Insights Deep Dive</h2>
 
-## Insights Deep Dive
-
-### Sales Performance
+<h3 align="center">Sales Performance</h3>
 
 <p align="center">
 <img src="images/sales_revenue_aov_volume.png" width="1000">
@@ -81,7 +80,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - The marketing channel mix was flat across all four years — social media anchored **~46%** of orders as the dominant acquisition channel, while email served as the primary retention and lifecycle channel throughout.
 - With mobile now driving the majority of transactions, checkout flow, payment experience, and page performance are baseline operational requirements — any friction directly impacts the majority of revenue.
 
-### Product Performance
+<h2 align="center">Product Performance</h2>
 
 <p align="center">
 <img src="images/product_sales_lines.png" width="900" height="600">
@@ -116,7 +115,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - Every product breached the 10% refund threshold simultaneously in 2024 — Amazon Alexa peaked at **13.2%**, MacBook Air at **12.5%**, and Anker Power Bank at **12.4%** — no product was insulated from the spike, regardless of tier or category.
 - A product quality or operational failure would surface through specific product lines — a simultaneous breach across every price tier in the same year points to customers pulling back financially, not a product or operations problem — and the 2025 return to near-baseline rates confirms the cause was cyclical, not structural.
 
-### Customer Loyalty
+<h2 align="center">Customer Loyalty</h2>
 
 <p align="center">
 <img src="images/sales_by_status.png" width="750">
@@ -152,7 +151,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - Loyalty adoption grew across all four regions between 2022 and 2025 — yet EMEA only narrowed the gap with NA from **18.5** percentage points in 2022 to **12.5** percentage points in 2025, the slowest closing rate of any region and the largest remaining enrollment gap.
 - Every region that entered 2025 with higher adoption recovered faster — closing EMEA's **12.5** percentage point gap is the most valuable enrollment opportunity available, and four years of regional data make the directional case.
 
-### Regional Performance
+<h2 align="center">Regional Performance</h2>
 
 <p align="center">
 <img src="images/region_aov_orders.png" width="750">
@@ -187,9 +186,9 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - NA is a different scale of business entirely — its **$1.2M** absolute gap is proportionally the smallest shortfall at **-13.8%**, while LATAM's **-19.7%** represents the deepest percentage gap of any region heading into 2026.
 - Across all four regions, the path back to 2022 revenue levels runs through the same place — growing loyalty enrollment where it lags most.
 
-## Recommendations
+<h2 align="center">Recommendations</h2>
 
-### Sales Performance 
+<h3 align="center">Sales Performance</h3>
 
 **Formalize January as a Demand Planning Leading Indicator**
 - January predicted full-year outcomes without exception across all four years — a simultaneous decline across revenue, AOV, and order volume in January should trigger an inventory and resource review before Q2 commitments are locked in.
@@ -203,7 +202,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - AOV compressed **24%** from **$638** to **$484** in 2024 before the full revenue collapse was visible — it is a leading signal of demand distress, not a lagging one.
 - Set a monthly AOV floor at **$589** - two consecutive months below this threshold should trigger a demand and pricing review, independent of revenue performance.
 
-### Product Performance 
+<h3 align="center">Product Performance</h3>
 
 **Protect MacBook Air as the Revenue Anchor**
 - MacBook Air has consistently accounted for 20-21% of total revenue across all four years, all four regions, and every market condition — no other product carries this level of concentration or risk.
@@ -217,7 +216,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - The overall refund rate climbed from 6.5% in 2022 to 12.0% in 2024 — breaching the 10% threshold across all 10 products simultaneously before the revenue collapse was fully visible in quarterly reports.
 - A simultaneous multi-product breach above 10% should prompt an immediate demand and pricing review — it signals customers pulling back financially before the revenue impact shows up.
 
-### Customer Loyalty
+<h3 align="center">Customer Loyalty</h3>
 
 **Accelerate Loyalty Enrollment — Prioritize EMEA**
 - EMEA's **29.2%** adoption rate trails NA's **41.7%** by **12.5** percentage points — every region that entered 2025 with higher adoption recovered faster, and EMEA has the most ground to close. 
@@ -231,7 +230,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - The loyalty AOV premium grew from **$51** in 2022 to **$94** in 2025 — the longer a customer remains enrolled, the more their spending diverges from non-members.
 - Acquisition campaigns should lead with loyalty enrollment as the primary offer - earlier enrollment means a longer compounding period and a higher lifetime revenue contribution per customer.
 
-### Regional Performance 
+<h3 align="center">Regional Performance</h3>
 
 **Close APAC's Fulfillment Gap**
 - APAC averages **9.51** days to delivery versus NA's **3.51**-day benchmark — **171%** longer, directly correlating with APAC's second-lowest recovery rate of **55%** in 2025.
@@ -245,9 +244,9 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - Customers in LATAM and APAC are already buying on mobile - these two regions also sit furthest below their 2022 baselines at  **-19.7%** and **-16.0%**, respectively.
 - Removing friction from mobile checkout, building mobile-specific loyalty enrollment flows, and concentrating social media acquisition spend in these markets targets the channel customers are already using in the markets with the largest revenue gap.
 
-## Caveats & Assumptions 
+<h2 align="center">Caveats & Assumptions</h2>
 
-### Data Cleaning & Preparation 
+<h3 align="center">Data Cleaning & Preparation</h3>
 
 *Date Standardization*
 - `order_ts`, `ship_ts`, `delivery_ts`, and `refund_ts` contained inconsistent date formats across 34,000+ rows — all standardized to a uniform M/D/YY format prior to analysis.
@@ -268,13 +267,14 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 *Self-Generated Columns*
 - Nine columns were derived from `order_ts` — including `order_year`, `order_quarter`, `order_month`, `order_season`, and `days_till_delivery` — enabling all time-series, seasonal, and fulfillment analysis performed throughout this report.
 
-### Analytical Assumptions
+<h3 align="center">Analytical Assumptions</h3>
+
 - All year-over-year, seasonal, and monthly figures reflect the filtered dataset of **$63.8M** across **~51,026 customers** — excluding **3,353** records with missing order timestamps accounts for the **~$1.9M** discrepancy between the full data ($65M, ~52,000 customers) and filtered analysis.
 - The customer retention rate analysis reflects a single cohort (2024→2025) — a point-in-time measure that should not be extrapolated as a multi-year retention trend.
 - The correlation between loyalty adoption rate and regional recovery rate is directional, not causal — fulfillment performance, product mix, and regional macroeconomic conditions may also contribute to recovery rate differences and have not been fully isolated.
 - The macro narrative is inferred entirely from internal data patterns — external economic indicators were not incorporated and have not been validated against the findings presented here.
 
-### Visualization Notes
+<h3 align="center">Visualization Notes</h3>
 - Chart 7A (Product AOV Heatmap) uses row-level scaling — color intensity reflects each product's performance relative to its own four-year range, not absolute AOV comparisons across products.
 - The three-chart Sales Performance panel displays monthly figures — trough values ($0.8M revenue, **$472** AOV, **1,641** order volume) represent monthly lows, not annual totals. Annual figures are sourced separately from the yearly growth rate analysis.
 
