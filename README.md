@@ -45,7 +45,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 <h3 align="center">Sales Performance</h3>
 
 <p align="center">
-<img src="images/sales_revenue_aov_volume.png" width="1000">
+<img src="images/sales_revenue_aov_volume.png" width="1000" height="299">
 </p>
 
 **2024 Was the Only Year All Three Core Metrics Contracted Simultaneously — Macro, Not Operational**
