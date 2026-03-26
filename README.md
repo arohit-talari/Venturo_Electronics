@@ -84,11 +84,11 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 ### Product Performance
 
 <p align="center">
-<img src="product_sales_lines.png" width="750">
+<img src="images/product_sales_lines.png" width="750">
 </p>
 
 <p align="center">
-<img src="recovery_rates_table.png" width="750">
+<img src="images/recovery_rates_table.png" width="750">
 </p>
 
 **MacBook Air Anchors Revenue — The Product Hierarchy Held Through Every Market Condition**
@@ -97,7 +97,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - Amazon Alexa and Anker Power Bank were the only two products that declined in 2025 — their 2024 trade-down gains reversed as customers returned to premium purchases.
 
 <p align="center">
-<img src="product_aov_heatmap.png" width="750">
+<img src="images/product_aov_heatmap.png" width="750">
 </p>
 *Note: each row is scaled to that product's own four-year range — color intensity reflects relative performance within each product line, not absolute AOV comparisons across products*
 
@@ -107,7 +107,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - Overall portfolio AOV recovered to **$634** in 2025 — matching the Sales Performance findings and within **$4** of 2023's **$638** high — confirming returning customers are back to purchasing at full premium price points, not trading down.
 
 <p align="center">
-<img src="refund_rate_heatmap.png" width="750">
+<img src="images/refund_rate_heatmap.png" width="750">
 </p>
 
 **The 2024 Refund Spike Was Systemic — Every Product Crossed 10% Simultaneously**
@@ -118,11 +118,11 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 ### Customer Loyalty
 
 <p align="center">
-<img src="sales_by_status.png" width="750">
+<img src="images/sales_by_status.png" width="750">
 </p>
 
 <p align="center">
-<img src="order_volume_table.png" width="750">
+<img src="images/order_volume_table.png" width="750">
 </p>
 
 **The Loyalty Program Did Not Prevent the 2024 Contraction — It Determined Who Came Back**
@@ -131,7 +131,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - On a revenue basis, loyalty member sales recovered **93%** from their 2024 low versus just **39%** for non-members — the program's value is not preventing downturns, it is determining who returns when conditions improve.
 
 <p align="center">
-<img src="retention_rate.png" width="750">
+<img src="images/retention_rate.png" width="750">
 </p>
 
 **Loyalty Members Retained at Nearly Twice the Rate of Non-Members**
@@ -140,7 +140,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - These **8,823** customers already know Venturo — re-engaging them costs less than acquiring new ones, and loyalty enrollment gives them a reason to stay.
 
 <p align="center">
-<img src="loyalty_aov.png" width="750">
+<img src="images/loyalty_aov.png" width="750">
 </p>
 
 **The Loyalty AOV Premium Is Widening — Membership Compounds Spending Behavior Over Time**
@@ -154,7 +154,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 ### Regional Performance
 
 <p align="center">
-<img src="region_aov_orders.png" width="750">
+<img src="images/region_aov_orders.png" width="750">
 </p>
 
 **NA Dominates Volume — Regional AOV Is Tightly Clustered, Making This a Volume Problem, Not a Pricing Problem**
@@ -162,14 +162,14 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - Despite the volume gap, regional AOV clusters tightly — NA **$605**, EMEA **$588**, APAC **$592**, LATAM **$584** — a **$21** spread across four global regions. The performance gap is a volume problem, not a pricing one — the path to closing it runs through loyalty enrollment and fulfillment improvement, not discounting.
 
 <p align="center">
-<img src="delivery_times.png" width="750">
+<img src="images/delivery_times.png" width="750">
 </p>
 
 - APAC averages **9.51** days to delivery, versus NA's **3.51-day benchmark** — **171%** longer — with LATAM (**8.50** days) and EMEA (**7.50 days**) also significantly trailing.
 - APAC posted the second-lowest recovery rate in 2025 at **55%** — with the longest delivery times and the second-lowest loyalty adoption at **34.4%**. Faster delivery is the most direct fix available to improve APAC's standing.
 
 <p align="center">
-<img src="revenue_recovery.png" width="750">
+<img src="images/revenue_recovery.png" width="750">
 </p>
 
 **All Four Regions Collapsed Together in 2024 — Recovery Diverged, With Loyalty Adoption as the Strongest Directional Indicator**
@@ -178,7 +178,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - APAC and LATAM sit between these extremes with recoveries of **55%** and **49%** respectively — loyalty adoption is the strongest directional indicator of recovery performance, though not the only factor at play.
 
 <p align="center">
-<img src="regional_baseline.png" width="750">
+<img src="images/regional_baseline.png" width="750">
 </p>
 
 **Every Region Recovered Ground in 2025 — None Have Fully Returned to 2022 Baseline**
