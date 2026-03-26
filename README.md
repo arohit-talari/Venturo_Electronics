@@ -4,14 +4,6 @@
 
 <h1 align="center">Venturo Electronics — Performance Analysis</h1>
 
-<h2 align="center">Table of Contents</h2>
-- [Client Background](#client-background)
-- [Executive Summary](#executive-summary)
-- [Data Structure & ERD](#data-structure--erd)
-- [Insights Deep Dive](#insights-deep-dive)
-- [Recommendations](#recommendations)
-- [Caveats & Assumptions](#caveats--assumptions)
-
 ---
 
 <h2 align="center">Client Background</h2>
