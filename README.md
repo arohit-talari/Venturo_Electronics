@@ -99,7 +99,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 <p align="center">
 <img src="images/product_aov_heatmap.png" width="900" height="290">
 </p>
-_Note: each row is scaled to that product's own four-year range — color intensity reflects relative performance within each product line, not absolute AOV comparisons across products_
+*Note: each row is scaled to that product's own four-year range — color intensity reflects relative performance within each product line, not absolute AOV comparisons across products*
 
 **AOV Compression in 2024 Was Catalog-Wide — With One Notable Exception Among Budget Product Lines**
 - Premium and mid-tier products compressed to four-year AOV lows in 2024, recovering uniformly in 2025 — budget products (Amazon Alexa, Anker Power Bank) ran counter to this trend, likely reflecting a shift toward lower-cost alternatives during the downturn, a pattern that normalized in 2025 as customers returned to premium purchases.
