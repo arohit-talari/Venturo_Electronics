@@ -84,11 +84,11 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 ### Product Performance
 
 <p align="center">
-<img src="images/product_sales_lines.png" width="750">
+<img src="images/product_sales_lines.png" width="900" height="301">
 </p>
 
 <p align="center">
-<img src="images/recovery_rates_table.png" width="750">
+<img src="images/recovery_rates_table.png" width="700" height="531">
 </p>
 
 **MacBook Air Anchors Revenue — The Product Hierarchy Held Through Every Market Condition**
@@ -140,7 +140,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - These **8,823** customers already know Venturo — re-engaging them costs less than acquiring new ones, and loyalty enrollment gives them a reason to stay.
 
 <p align="center">
-<img src="images/loyalty_aov.png" width="750">
+<img src="images/loyalty_aov.png" width="900" height="359">
 </p>
 
 **The Loyalty AOV Premium Is Widening — Membership Compounds Spending Behavior Over Time**
@@ -178,7 +178,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - APAC and LATAM sit between these extremes with recoveries of **55%** and **49%** respectively — loyalty adoption is the strongest directional indicator of recovery performance, though not the only factor at play.
 
 <p align="center">
-<img src="images/regional_baseline.png" width="750">
+<img src="images/regional_baseline.png" width="900" height="288">
 </p>
 
 **Every Region Recovered Ground in 2025 — None Have Fully Returned to 2022 Baseline**
