@@ -154,7 +154,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - Despite the volume gap, regional AOV clusters tightly — NA **$605**, EMEA **$588**, APAC **$592**, LATAM **$584** — a **$21** spread across four global regions. The performance gap is a volume problem, not a pricing one — the path to closing it runs through loyalty enrollment and fulfillment improvement, not discounting.
 
 <p align="center">
-<img src="images/delivery_times.png" width="750">
+<img src="images/delivery_times.png" width="750" height="388">
 </p>
 
 - APAC averages **9.51** days to delivery, versus NA's **3.51-day benchmark** — **171%** longer — with LATAM (**8.50** days) and EMEA (**7.50 days**) also significantly trailing.
