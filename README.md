@@ -84,11 +84,11 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 ### Product Performance
 
 <p align="center">
-<img src="images/product_sales_lines.png" width="900" height="400">
+<img src="images/product_sales_lines.png" width="900" height="500">
 </p>
 
 <p align="center">
-<img src="images/recovery_rates_table.png" width="750" height="553">
+<img src="images/recovery_rates_table.png" width="600" height="443">
 </p>
 
 **MacBook Air Anchors Revenue — The Product Hierarchy Held Through Every Market Condition**
