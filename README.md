@@ -64,7 +64,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - A formal January review costs nothing and gives operations its earliest possible signal before the year's trajectory is locked in.
 
 <p align="center">
-<img src="images/order_channel_mix.png" width="750">
+<img src="images/order_channel_mix.png" width="750" height="388">
 </p>
 
 **Mobile Overtook Desktop in 2024 and Widened Its Lead in 2025 — A Four-Year Channel Reversal**
