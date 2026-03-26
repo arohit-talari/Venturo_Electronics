@@ -123,7 +123,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - On a revenue basis, loyalty member sales recovered **93%** from their 2024 low versus just **39%** for non-members — the program's value is not preventing downturns, it is determining who returns when conditions improve.
 
 <p align="center">
-<img src="images/retention_rate.png" width="750">
+<img src="images/retention_rate.png" width="900" height="509">
 </p>
 
 **Loyalty Members Retained at Nearly Twice the Rate of Non-Members**
