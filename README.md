@@ -127,8 +127,8 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 </p>
 
 **Loyalty Members Retained at Nearly Twice the Rate of Non-Members**
-- Of **12,076** non-loyalty customers active in 2024, only **3,253** returned in 2025 — **8,823** were lost at a **27.0%** retention rate versus **47.0%** for loyalty members, a 20.1 percentage point gap.
-- Each converted non-loyalty customer represents **~$872** in incremental annual revenue — **8,823** lost customers represent a **~$7.7M** addressable opportunity.
+- Of **12,076** non-loyalty customers active in 2024, only **3,253** returned in 2025 — **8,823** were lost at a **26.9%%** retention rate versus **47.0%** for loyalty members, a **20.1** percentage point gap.
+- Each converted non-loyalty customer represents **~$872** in incremental annual revenue — 8,823 lost customers represent a **~$7.7M** addressable opportunity.
 - These **8,823** customers already know Venturo — re-engaging them costs less than acquiring new ones, and loyalty enrollment gives them a reason to stay.
 
 <p align="center">
@@ -141,7 +141,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 
 **EMEA Has the Largest Enrollment Gap — And the Weakest Recovery to Match**
 - Loyalty adoption grew across all four regions between 2022 and 2025 — yet EMEA only narrowed the gap with NA from **18.5** percentage points in 2022 to **12.5** percentage points in 2025, the slowest closing rate of any region and the largest remaining enrollment gap.
-- Every region that entered 2025 with higher adoption recovered faster — closing EMEA's **12.5** percentage point gap is the most valuable enrollment opportunity available, and four years of regional data make the directional case.
+- Every region that entered 2025 with higher adoption recovered faster — closing EMEA's 12.5 percentage point gap is the most valuable enrollment opportunity available, and four years of regional data make the directional case.
 
 <h2 align="center">Regional Performance</h2>
 
