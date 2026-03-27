@@ -88,7 +88,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - Amazon Alexa and Anker Power Bank were the only two products that declined in 2025 — their 2024 trade-down gains reversed as customers returned to premium purchases.
 
 <p align="center">
-<img src="images/product_aov_heatmap.png" width="900" height="290">
+<img src="images/product_aov_heatmap.png" width="900" height="441">
 </p>
 
 *Note: each row is scaled to that product's own four-year range — color intensity reflects relative performance within each product line, not absolute AOV comparisons across products*
