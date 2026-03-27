@@ -267,8 +267,9 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - The macro narrative is inferred entirely from internal data patterns — external economic indicators were not incorporated and have not been validated against the findings presented here.
 
 <h3 align="center">Visualization Notes</h3>
+
 - Product AOV Heatmap uses row-level scaling — color intensity reflects each product's performance relative to its own four-year range, not absolute AOV comparisons across products.
-- The three-chart Sales Performance panel displays monthly figures — trough values (<strong>$0.8M</strong> revenue, <strong>$472</strong> AOV, </strong>1,641</strong> order volume) represent monthly lows, not annual totals. Annual figures are sourced separately from the yearly growth rate analysis.
+- The three-chart Sales Performance panel displays monthly figures — trough values ($0.8M revenue, $472 AOV, 1,641 order volume) represent monthly lows, not annual totals. Annual figures are sourced separately from the yearly growth rate analysis.
 
 
 
