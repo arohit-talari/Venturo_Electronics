@@ -75,7 +75,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 <h2 align="center">Product Performance</h2>
 
 <p align="center">
-<img src="images/product_sales_lines.png" width="900" height="387">
+<img src="images/product_sales_lines.png" width="900" height="441">
 </p>
 
 <p align="center">
@@ -146,7 +146,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 <h2 align="center">Regional Performance</h2>
 
 <p align="center">
-<img src="images/region_aov_orders.png" width="900" height="478">
+<img src="images/region_aov_orders.png" width="900" height="476">
 </p>
 
 **NA Dominates Volume — Regional AOV Is Tightly Clustered, Making This a Volume Problem, Not a Pricing Problem**
@@ -161,7 +161,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - APAC posted the second-lowest recovery rate in 2025 at **55%** — with the longest delivery times and the second-lowest loyalty adoption at **34.4%**. Faster delivery is the most direct fix available to improve APAC's standing.
 
 <p align="center">
-<img src="images/revenue_recovery.png" width="900" height="512">
+<img src="images/revenue_recovery.png" width="900" height="472">
 </p>
 
 **All Four Regions Collapsed Together in 2024 — Recovery Diverged, With Loyalty Adoption as the Strongest Directional Indicator**
