@@ -225,8 +225,8 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 <h3 align="center">Regional Performance</h3>
 
 **Close APAC's Fulfillment Gap**
-- APAC averages **9.51** days to delivery versus NA's **3.51**-day benchmark — **171%** longer, directly correlating with APAC's second-lowest recovery rate of **55%** in 2025.
-- Reducing APAC delivery times to within EMEA's **7.50**-day benchmark removes the most identifiable operational barrier in the region — with the longest delivery times and second-lowest recovery rate of **55%**, fulfillment speed is the clearest friction point within Venturo's direct control.
+- APAC averages **9.51 days to delivery** versus NA's **3.51-day benchmark** — **171%** longer, directly correlating with APAC's second-lowest recovery rate of **55%** in 2025.
+- Reducing APAC delivery times to within EMEA's **7.50-day benchmark** removes the most identifiable operational barrier in the region — with the longest delivery times and second-lowest recovery rate of 55%, fulfillment speed is the clearest friction point within Venturo's direct control.
 
 **Resolve the Marketing Attribution Gap**
 - **15%** of orders (**~16,129**) carry an ‘Unknown’ marketing channel - without knowing how these customers were acquired, Venturo cannot evaluate which channels are working or where acquisition spend is being wasted.
@@ -249,8 +249,8 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 - `product_id` values were not validated against `product_name` in the source system — all mismatched pairs were identified and corrected via cross-reference against the product lookup table.
 
 *Retained Limitations*
-- `marketing_channel` contains an 'Unknown' category representing **15%** of records (**~16,129 orders**) — a system-assigned value where the pipeline failed to match the order to a known acquisition channel. Re-categorization is not feasible without source system logs.
-- `account_creation_method` contains an 'Unknown' category representing **17%** of records (**~19,139**) — reflecting edge cases where the creation method was unloggable. Accepted as a valid category with the caveat that how customers create accounts may be underepresented in any channel-level analysis.
+- `marketing_channel` contains an 'Unknown' category representing 15% of records (~16,129 orders) — a system-assigned value where the pipeline failed to match the order to a known acquisition channel. Re-categorization is not feasible without source system logs.
+- `account_creation_method` contains an 'Unknown' category representing 17% of records (~19,139) — reflecting edge cases where the creation method was unloggable. Accepted as a valid category with the caveat that how customers create accounts may be underepresented in any channel-level analysis.
 
 *Regional & Country Data*
 - `country_code` entries were remapped to ISO 3166-1 alpha-2 standard across 14,433 rows — resolving all non-conforming alpha-3 format entries via the country lookup table.
@@ -261,7 +261,7 @@ The database consists of five tables — `orders`, `customers`, `date_dim`, `geo
 
 <h3 align="center">Analytical Assumptions</h3>
 
-- All year-over-year, seasonal, and monthly figures reflect the filtered dataset of **$63.8M** across **~51,026 customers** — excluding **3,353** records with missing order timestamps accounts for the **~$1.9M** discrepancy between the full data ($65M, ~52,000 customers) and filtered analysis.
+- All year-over-year, seasonal, and monthly figures reflect the filtered dataset of **$63.8M** across **~51,026 customers** — excluding **3,353** records with missing order timestamps accounts for the **~$1.9M** discrepancy between the full data (**$65M**, **~52,000** customers) and filtered analysis.
 - The customer retention rate analysis reflects a single cohort (2024→2025) — a point-in-time measure that should not be extrapolated as a multi-year retention trend.
 - The correlation between loyalty adoption rate and regional recovery rate is directional, not causal — fulfillment performance, product mix, and regional macroeconomic conditions may also contribute to recovery rate differences and have not been fully isolated.
 - The macro narrative is inferred entirely from internal data patterns — external economic indicators were not incorporated and have not been validated against the findings presented here.
