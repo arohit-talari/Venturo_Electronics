@@ -3,6 +3,7 @@
 </p>
 
 <h1 align="center">Venturo Electronics — Performance Analysis</h1>
+
 ---
 
 <h1 align="center">Client Background</h1>
